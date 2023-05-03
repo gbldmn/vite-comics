@@ -39,7 +39,8 @@ export default{
     </div>
  </div>
  <div class="container3">
-    <div>
+  <div class="item">
+    <div class="m-l">
         <ul>
             <li class="white">dc comics</li>
             <li>charactes</li>
@@ -56,7 +57,7 @@ export default{
             <li>shop dc collectible</li>
         </ul>
     </div>
-    <div>
+    <div class="m-l">
         <ul>
             <li class="white">dc</li>
             <li>terms of use</li>
@@ -72,7 +73,7 @@ export default{
             <li>contact us</li>
         </ul>
     </div>
-    <div>
+    <div class="m-l">
         <ul>
             <li class="white">sites</li>
             <li>dc</li>
@@ -82,6 +83,7 @@ export default{
             <li>dc power visa</li>
         </ul>
     </div>
+  </div>
     <div class="absolute">
         <img src="/img/dc-logo-bg.png" width="500px"  alt="">
     </div>

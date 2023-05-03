@@ -1,12 +1,18 @@
 
 @import './partials/variables';
 
+* {
+    margin: 0;
+    padding: 0;
+
+}
 header {
     margin: 0 auto;
     width: 80%;
     text-align: center;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     ul {
         display: flex;
@@ -32,7 +38,7 @@ main{
     width: 80%;
     background-color: black;
     color: white;
-    height: 150px;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -47,7 +53,7 @@ main{
     margin: 0 auto;
     width: 80%;
     background-color: #0282F9;
-    height: 150px;
+    height: 130px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,11 +69,11 @@ main{
 .container {
     background-color: black;
     width: 100%;
-    height: 150px;
+    height: 120px;
 }
 .container2 {
     background-color: #0282F9;
-    height: 150px;
+    height: 130px;
     width: 100%;
     li {
         display: flex;  
@@ -85,6 +91,16 @@ main{
     color: #797979;
     margin-bottom: 3px;
 }
+.item {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    .m-l {
+    margin-left: 20px;
+    }
+}
+
 .white {
     color: white;
     font-size: 20px;
@@ -94,4 +110,35 @@ main{
 .absolute {
     position: absolute;
     margin-left: 50%;
+}
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    background-color: #303030;
+    z-index: 999;
+}
+.box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    img {
+        margin-left: 10px;
+    }
+}
+button {
+    padding: 13px;
+    border: 2px solid rgb(71, 179, 215);
+    background-color: #303030;
+    cursor: pointer;
+    color: white;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    color: #0282F9;
+    font-size: 20px;
 }
