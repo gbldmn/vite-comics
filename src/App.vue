@@ -1,27 +1,19 @@
 <script>
+import HeaderComp from './components/HeaderComp.vue'
+import MainComp from './components/MainComp.vue'
 
+export default{
+  name: "App",
+  components: {
+    HeaderComp,
+    MainComp
+  }
+}
 </script>
 
 <template>
- <header>
-  <div>
-  <img src="/img/dc-logo.png" alt="">
-  </div>
-  <div>
-    <ul>
-      <li> <a href="">characters</a> </li>
-      <li> <a href="">comics</a> </li>
-      <li> <a href="">movies</a> </li>
-      <li> <a href="">tv</a> </li>
-      <li> <a href="">games</a> </li>
-      <li> <a href="">collectibles</a> </li>
-      <li> <a href="">videos</a> </li>
-      <li> <a href="">fans</a> </li>
-      <li> <a href="">news</a> </li>
-      <li> <a href="">shop</a> </li>
-    </ul>
-  </div>
- </header>
+ <HeaderComp/>
+ <MainComp/>
 </template>
 
 <style lang="scss">
