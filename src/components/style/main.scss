@@ -1,5 +1,4 @@
 
-@import './partials/variables';
 
 * {
     margin: 0;
@@ -22,10 +21,12 @@ header {
             font-size: 15px;
             font-weight: bold;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-            color: black;
+            height: 30px;
+            
             a{
                 text-decoration: none;
                 padding: 5px;
+                color: black;
                 &:hover {
                     background-color: lightblue;
                 }
@@ -104,6 +105,11 @@ main{
     list-style-type: none;
     color: #797979;
     margin-bottom: 3px;
+    a{
+        text-decoration: none;
+        color: #797979;
+        cursor: pointer;
+    }
 }
 .item {
     width: 80%;
@@ -168,4 +174,7 @@ button {
     position:absolute;
     padding: 1rem;
     background-color: #0282F9;
+    top: 0;
+    left: 0;
+    transform: translateY(-50%);
 }

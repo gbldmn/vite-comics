@@ -127,45 +127,44 @@ export default{
   <div class="item">
     <div class="m-l">
         <ul>
-            <li class="white">dc comics</li>
-            <li>charactes</li>
-            <li>comics</li>
-            <li>movie</li>
-            <li>tv</li>
-            <li>games</li>
-            <li>videos</li>
-            <li>news</li>
+            <li class="white">DC COMICS</li>
+            <li><a href="">Charactes</a> </li>
+            <li><a href="">Comics</a> </li>
+            <li><a href="">Movie</a> </li>
+            <li><a href="">Tv</a> </li>
+            <li><a href="">Games</a> </li>
+            <li><a href="">videos</a> </li>
+            <li><a href="">News</a></li>
         </ul>
         <ul>
-            <li class="white">shop</li>
-            <li>shop dc</li>
-            <li>shop dc collectible</li>
-        </ul>
-    </div>
-    <div class="m-l">
-        <ul>
-            <li class="white">dc</li>
-            <li>terms of use</li>
-            <li>privacy policy</li>
-            <li>and choices</li>
-            <li>advertising</li>
-            <li>jobs</li>
-            <li>subscriptcions</li>
-            <li>talent workshops</li>
-            <li>CPSC certificates</li>
-            <li>ratings</li>
-            <li>shop help</li>
-            <li>contact us</li>
+            <li class="white">SHOP</li>
+            <li><a href="">Shop dc</a> </li>
+            <li><a href="">Shop dc collectible</a> </li>
         </ul>
     </div>
     <div class="m-l">
         <ul>
-            <li class="white">sites</li>
-            <li>dc</li>
-            <li>MAD magazine</li>
-            <li>dc kids</li>
-            <li>dc universe</li>
-            <li>dc power visa</li>
+            <li class="white">DC</li>
+            <li><a href="">Terms of use</a> </li>
+            <li><a href="">Privacy policy</a> </li>
+            <li><a href="">Advertising</a> </li>
+            <li><a href="">Jobs</a> </li>
+            <li><a href="">Subscriptcions</a> </li>
+            <li><a href=""> Talent workshops</a></li>
+            <li><a href="">CPSC certificates</a> </li>
+            <li><a href="">Ratings</a> </li>
+            <li><a href="">Shop help</a> </li>
+            <li><a href="">Contact us</a> </li>
+        </ul>
+    </div>
+    <div class="m-l">
+        <ul>
+            <li class="white">SITES</li>
+            <li><a href="">Dc</a> </li>
+            <li><a href="">MAD magazine</a> </li>
+            <li><a href=""> Dc kids</a></li>
+            <li><a href="">Dc universe</a> </li>
+            <li><a href="">Dc power visa</a> </li>
         </ul>
     </div>
   </div>

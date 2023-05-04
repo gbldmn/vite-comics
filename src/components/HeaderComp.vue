@@ -26,7 +26,7 @@ export default{
  </header>
 
  <div class="img-big">
-    <img src="/img/jumbotron.jpg" alt="">
+   <img src="/img/jumbotron.jpg" alt="">
  </div>
  
 </template>
