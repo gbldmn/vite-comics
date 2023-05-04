@@ -9,7 +9,7 @@ export default{
 
 <template>
         <div>
-            <img src="dettagliCard.thumb" alt=""> 
+            <img :src= "dettagliCard.thumb" alt=""> 
             <h3>{{ dettagliCard.series }}</h3>
         </div>
 </template>

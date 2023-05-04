@@ -28,17 +28,16 @@ export default{
  <div class="img-big">
     <img src="/img/jumbotron.jpg" alt="">
  </div>
+ 
 </template>
 
 <style lang="scss" scoped>
  .img-big {
-  position: relative;
   width: 100%;
   height: 500px;
   img {
     width: 100%;
-  height: 100%;
+    height: 100%;
   }
-
  }
 </style>

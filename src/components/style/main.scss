@@ -34,6 +34,7 @@ header {
     }
 }
 main{
+    position: relative;
     margin: 0 auto;
     width: 80%;
     height: 700px;
@@ -162,4 +163,9 @@ button {
     display: flex;
     align-items: center;
     margin-top: 10px;
+}
+.sas {
+    position:absolute;
+    padding: 1rem;
+    background-color: #0282F9;
 }

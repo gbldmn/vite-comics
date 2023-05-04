@@ -91,6 +91,7 @@ export default{
 <template>
  <div class="container">
     <main>
+        <button class="sas">CURRENT SERIES</button>
         <SingleProduct v-for="(elem, index) in cards" :key="index"
         :dettagliCard="elem"/>
         <button class="but">LOAD MORE</button>
