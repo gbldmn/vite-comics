@@ -1,6 +1,12 @@
 <script>
+
+import SingleProduct from './SingleProduct.vue'
+
 export default{
     name: "MainComp",
+    components: {
+        SingleProduct
+    },
     data(){
         return{
            cards: [
@@ -67,7 +73,7 @@ export default{
   {
     "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/f/f8/Batman_White_Knight_Presents_Harley_Quinn_Vol_1_1.jpg",
     "price": "$4.99",
-    "series": "Batman: White Knight Presents: Harley Quinn",
+    "series": "Batman: White Knight Presents",
     "type": "comic book"
   },
   {
@@ -85,11 +91,9 @@ export default{
 <template>
  <div class="container">
     <main>
-        <div v-for="(elem, index) in cards"
-            :key="index">
-            <img :src="elem.thumb" alt=""> 
-            <h3>{{ elem.series }}</h3>
-        </div>
+        <SingleProduct v-for="(elem, index) in cards" :key="index"
+        :dettagliCard="elem"/>
+        <button class="but">LOAD MORE</button>
     </main>
  </div>
  <div class="container2">
